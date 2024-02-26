@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"github.com/my-org-org/golang-lib/dependency"
 	"github.com/my-org-for-test/golang-local-lib/locallib"
+	"github.com/my-org-for-test/golang-lib-to-migrate/locallibtomigrate"
 )
 
 func main() {
@@ -12,4 +13,7 @@ func main() {
 
 	fmt.Println("Local Deps Demo:")
 	locallib.PrintFromLocalLib()
+
+	fmt.Println("Library release migrated from GH to Artifactory:")
+	locallibtomigrate.PrintFromLocalLib()
 }
