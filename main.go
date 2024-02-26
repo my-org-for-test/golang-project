@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/my-org-for-test/golang-lib/dependency"
+	"github.com/my-org-org/golang-lib/dependency"
 )
 
 func main() {
